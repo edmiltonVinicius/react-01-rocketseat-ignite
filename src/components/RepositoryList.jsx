@@ -11,7 +11,7 @@ export function RepositoryList() {
             .then(res => res.json())
             .then(data => setRepositories(data))
 
-    }, [])
+    }, []);
 
     return (
         <section className="repository-list">
